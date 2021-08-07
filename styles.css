@@ -5,11 +5,11 @@
   border: 1px solid black;
   margin: 5px;
 }
-.container{
+.container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  height:200px;
-  align-items: center;
-  align-content: stretch;
+  justify-content: flex-start;
+  height: 200px;
+  align-items: flex-start;
+  align-content: flex-start;
 }
