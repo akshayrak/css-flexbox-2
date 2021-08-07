@@ -1,0 +1,15 @@
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border: 1px solid black;
+  margin: 5px;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height:200px;
+  align-items: center;
+  align-content: stretch;
+}
